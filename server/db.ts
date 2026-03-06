@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const MONGO_URI = "mongodb://127.0.0.1:27017/whiteboard"
+const MONGO_URI = "mongodb+srv://whiteboarduser:djrss@1922@cluster0.ekxm47l.mongodb.net/?appName=Cluster0"
 
 export async function connectDB() {
 
